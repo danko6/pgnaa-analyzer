@@ -335,7 +335,7 @@ def main():
                 <p>Industrial performance dashboard for <b> Bulgaria</b></p>
             </div>
             <div style="font-size: 1.5rem; font-weight: bold; border-left: 3px solid rgba(255,255,255,0.3); padding-left: 20px;">
-                HOLCIM
+                PGNAA
             </div>
         </div>
     """, unsafe_allow_html=True)
@@ -443,4 +443,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
