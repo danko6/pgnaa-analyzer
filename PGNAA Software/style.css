@@ -1,0 +1,60 @@
+
+/* Global Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@400;600&display=swap');
+
+html, body, [class*="css"]  {
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+/* App Background - subtle grey for contrast with white cards */
+.stApp {
+    background-color: #f0f2f6; 
+}
+
+/* Card Styling */
+.card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+/* Custom Containers for visual grouping */
+div.block-container {
+    padding-top: 2rem;
+}
+
+/* Styling Buttons */
+.stButton > button {
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 2rem;
+    transition: all 0.3s ease;
+}
+
+.stButton > button:hover {
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    transform: translateY(-2px);
+}
+
+/* Table Styling */
+/* Sticky Header is default in newer Streamlit, but we can enhance */
+.stDataFrame {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Zebra Striping handled by Streamlit theme usually, but we can enforce if needed. 
+   Streamlit doesn't easily allow pure CSS zebra on the specific dataframe component 
+   without some unsafe_allow_html hacking. We'll rely on default friendly theme. */
