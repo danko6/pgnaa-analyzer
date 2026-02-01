@@ -208,9 +208,9 @@ def highlight_rows(row, threshold):
     return styles
 
 def main():
-    st.set_page_config(page_title="Holcim PGNAA vs XRF", layout="wide", page_icon="🔬")
+    st.set_page_config(page_title=" PGNAA vs XRF", layout="wide", page_icon="🔬")
     
-    # --- PREMIUM CSS (Holcim Branding) ---
+    # --- PREMIUM CSS ( Branding) ---
     st.markdown("""
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
@@ -332,7 +332,7 @@ def main():
         <div class="main-header">
             <div>
                 <h1>PGNAA ⇆ XRF Smart Analyzer</h1>
-                <p>Industrial performance dashboard for <b>Holcim Bulgaria</b></p>
+                <p>Industrial performance dashboard for <b> Bulgaria</b></p>
             </div>
             <div style="font-size: 1.5rem; font-weight: bold; border-left: 3px solid rgba(255,255,255,0.3); padding-left: 20px;">
                 HOLCIM
@@ -443,3 +443,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
